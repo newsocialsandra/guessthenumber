@@ -21,7 +21,6 @@ while guessesTaken < 6:
 
 	elif guess == number:
 		break
-
 if guess == number:
 	guessesTaken = str(guessesTaken)
 	print "Good job! You guessed my number in" + guessesTaken + " guesses!"
